@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package example;
+
+enum Enumeration {
+  ENUMERATION_UNSPECIFIED = 0;
+  ENUMERATION_A = 1;
+  ENUMERATION_B = 2;
+}
+
+message Example {
+  string a = 1;
+  Enumeration e = 2;
+}
